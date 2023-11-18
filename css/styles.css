@@ -1,0 +1,174 @@
+/* play-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Base*/
+:root {
+  --color-brand: #2b7fff;
+  --color-main: #011c44;
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+body {
+  color: var(--color-main);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+h2 {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.accent {
+  color: var(--color-brand);
+}
+
+.accent-bald {
+  font-weight: 600;
+}
+
+/* Link */
+.link {
+  color: var(--color-main);
+}
+
+.link:hover {
+  color: var(--color-brand);
+}
+
+/* Title section */
+.logo-first {
+  color: var(--color-brand);
+  font-family: Play;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 0.95;
+  text-transform: capitalize;
+  width: 74px;
+}
+
+.main-title {
+  color: var(--color-brand);
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+  text-transform: capitalize;
+}
+
+.consult {
+  color: #4a4a4a;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Advantages section */
+.advantages {
+  color: var(--color-black);
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+/* Procedures section */
+.procedures-types {
+  color: var(--color-white);
+  line-height: 1.2;
+}
+
+.button {
+  font-weight: 600;
+  border: 2px solid var(--color-brand);
+  border-radius: 32px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+.button:active {
+  color: var(--color-white);
+  background-color: var(--color-brand);
+}
+
+/* Footer */
+
+footer {
+  background: var(--color-main);
+}
+footer a {
+  color: var(--color-white);
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: var(--color-brand);
+}
+
+.logo-last {
+  color: var(--color-brand);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 0.88;
+  text-transform: capitalize;
+  width: 83px;
+}
+
+address {
+  font-style: normal;
+}
+
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
+}
